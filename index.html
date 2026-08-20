@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rescribet — IT Consultancy & Training</title>
+  <meta name="description" content="IT consultancy and training services — infrastructure, cloud, security, and developer training." />
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <img class="hero-img" src="/assets/banner.jpg" alt="Banner image" />
+    <div class="hero-content">
+      <h1>Rescribet</h1>
+      <p class="tagline">IT consultancy & training — helping teams build secure, reliable systems</p>
+      <p class="cta-row">
+        <a class="btn" href="#services">Our Services</a>
+        <a class="btn btn-outline" href="#contact">Contact</a>
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <section id="services" class="section">
+      <h2>What we do</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Consultancy</h3>
+          <p>Architecture reviews, cloud migrations, SRE and reliability improvements, and security assessments.</p>
+        </div>
+        <div class="card">
+          <h3>Training</h3>
+          <p>Hands-on workshops and training for developers and ops teams — cloud, containers, CI/CD and observability.</p>
+        </div>
+        <div class="card">
+          <h3>Support</h3>
+          <p>Short-term engagements, on-call advice, and implementation help to accelerate delivery.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section muted">
+      <h2>About</h2>
+      <p>We combine practical engineering experience with training expertise to help teams ship better software.</p>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Get in touch</h2>
+      <p>Email: <a href="mailto:info@rescribet.com">info@rescribet.com</a></p>
+      <p>Or open an issue on this repo to request updates to the site.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© <span id="year"></span> Rescribet — IT Consultancy & Training</small>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
